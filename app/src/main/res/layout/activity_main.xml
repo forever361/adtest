@@ -1,0 +1,176 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_xb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4855871441281679/3451569168">
+    </com.google.android.gms.ads.AdView>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_zn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView_xb"
+        android:layout_alignStart="@+id/adView_xb"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4855871441281679/3176252282">
+    </com.google.android.gms.ads.AdView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView_zn"
+        android:layout_alignStart="@+id/adView_zn"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+    </com.google.android.gms.ads.AdView>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_cy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView_001"
+        android:layout_alignStart="@+id/adView_001"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4855871441281679/1084797605">
+    </com.google.android.gms.ads.AdView>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_js"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView_cy"
+        android:layout_alignStart="@+id/adView_cy"
+        android:layout_marginBottom="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-4855871441281679/7974641602">
+    </com.google.android.gms.ads.AdView>
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/adView_001"
+        android:layout_alignTop="@+id/switchPage"
+        android:layout_marginEnd="26dp"
+        android:text=" banner" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginTop="40dp"
+        android:text="插页" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginTop="40dp"
+        android:text="other page" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignTop="@+id/button3"
+        android:layout_marginTop="40dp"
+        android:text="001 page" />
+
+    <Switch
+        android:id="@+id/switchPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:text="学霸猜词" />
+
+    <Switch
+        android:id="@+id/switchPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/switchPage"
+        android:layout_alignStart="@+id/switchPage"
+        android:layout_below="@+id/switchPage"
+        android:layout_marginTop="7dp"
+        android:text="指南针" />
+
+    <Switch
+        android:id="@+id/switchPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/switchPage1"
+        android:layout_alignStart="@+id/switchPage1"
+        android:layout_below="@+id/switchPage1"
+        android:layout_marginTop="7dp"
+        android:text="App-001" />
+
+    <Switch
+        android:id="@+id/switchPage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/switchPage2"
+        android:layout_alignStart="@+id/switchPage2"
+        android:layout_below="@+id/switchPage2"
+        android:layout_marginTop="7dp"
+        android:text="成语词典" />
+
+    <Switch
+        android:id="@+id/switchPage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/switchPage3"
+        android:layout_alignStart="@+id/switchPage3"
+        android:layout_below="@+id/switchPage3"
+        android:layout_marginTop="7dp"
+        android:text="计算器" />
+
+    <Switch
+        android:id="@+id/switchPage5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/switchPage4"
+        android:layout_alignStart="@+id/switchPage4"
+        android:layout_below="@+id/switchPage4"
+        android:layout_marginTop="7dp"
+        android:text="插页" />
+
+
+</RelativeLayout>
