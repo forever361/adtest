@@ -1,4 +1,4 @@
-package adloading.kun.com.jisuanqi;
+package adloading.kun.com.chengyu;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
