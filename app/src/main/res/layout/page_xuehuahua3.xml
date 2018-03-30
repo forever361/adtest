@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
 
@@ -27,7 +27,7 @@
         android:layout_alignStart="@+id/adView"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
     <com.google.android.gms.ads.AdView
@@ -39,7 +39,7 @@
         android:layout_alignStart="@+id/adView_1"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
 
@@ -52,7 +52,7 @@
         android:layout_alignStart="@+id/adView_2"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
 
@@ -65,7 +65,7 @@
         android:layout_alignStart="@+id/adView_3"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
     <com.google.android.gms.ads.AdView
@@ -77,7 +77,7 @@
         android:layout_alignStart="@+id/adView_4"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
     <com.google.android.gms.ads.AdView
@@ -89,7 +89,7 @@
         android:layout_alignStart="@+id/adView_5"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
     <com.google.android.gms.ads.AdView
@@ -101,7 +101,7 @@
         android:layout_alignStart="@+id/adView_6"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
     <com.google.android.gms.ads.AdView
@@ -113,7 +113,7 @@
         android:layout_alignStart="@+id/adView_7"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
     <com.google.android.gms.ads.AdView
@@ -125,7 +125,7 @@
         android:layout_alignStart="@+id/adView_8"
         android:layout_marginBottom="5dp"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4855871441281679/2058486396">
+        ads:adUnitId="ca-app-pub-4855871441281679/7761189774">
     </com.google.android.gms.ads.AdView>
 
 
@@ -142,7 +142,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="App-001" />
+        android:text="学画画3" />
 
 
 </RelativeLayout>

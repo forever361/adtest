@@ -1,4 +1,4 @@
-package adloading.kun.com.chengyu;
+package adloading.kun.com.adall;
 
 import org.junit.Test;
 

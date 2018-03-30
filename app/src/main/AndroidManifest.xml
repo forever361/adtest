@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="adloading.kun.com.chengyu">
+    package="adloading.kun.com.adall">
 
     <application
         android:allowBackup="true"
@@ -9,14 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="adloading.kun.com.chengyu.MainActivity">
+        <activity android:name="adloading.kun.com.adall.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="adloading.kun.com.chengyu.page001"></activity>
+        <activity android:name="adloading.kun.com.adall.page001"></activity>
+        <activity android:name="adloading.kun.com.adall.otherpage"></activity>
+        <activity android:name="adloading.kun.com.adall.xueba"></activity>
+        <activity android:name="adloading.kun.com.adall.zhinanzhen"></activity>
+        <activity android:name="adloading.kun.com.adall.chengyu"></activity>
+        <activity android:name="adloading.kun.com.adall.jisuanqi"></activity>
+        <activity android:name="adloading.kun.com.adall.xuehuahau3"></activity>
     </application>
 
 </manifest>

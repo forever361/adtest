@@ -1,13 +1,13 @@
-package adloading.kun.com.chengyu;
+package adloading.kun.com.adall;
 
 /**
  * Created by Administrator on 2018/3/27 0027.
  */
 
 
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.Toast;
@@ -18,7 +18,7 @@ import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.reward.RewardedVideoAd;
 
 
-public class page001 extends AppCompatActivity {
+public class xuehuahau3 extends AppCompatActivity {
 
 
 
@@ -45,7 +45,7 @@ public class page001 extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.page_001);
+        setContentView(R.layout.page_xuehuahua3);
         initView();
     }
 
@@ -81,7 +81,7 @@ public class page001 extends AppCompatActivity {
             public void run() {
                 int TIME = (int)((Math.random() * 8 + 0.5)*10000)-737;
                 handler.postDelayed(this, TIME);
-                Toast.makeText(page001.this, String.valueOf(TIME), Toast.LENGTH_SHORT).show();
+                Toast.makeText(xuehuahau3.this, String.valueOf(TIME), Toast.LENGTH_SHORT).show();
 
                 AdRequest adRequest = new AdRequest.Builder().build();
 //                mAdView.loadAd(adRequest);

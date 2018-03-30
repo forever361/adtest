@@ -1,4 +1,4 @@
-package adloading.kun.com.chengyu;
+package adloading.kun.com.adall;
 
 
 import android.content.Intent;
@@ -156,10 +156,10 @@ public class MainActivity extends AppCompatActivity {
                     mAdView_xb.loadAd(adRequest);
                     break;
 
-//                case R.id.button3:
-//                    Intent i = new Intent(MainActivity.this ,otherpage.class);
-//                    startActivity(i);
-//                    break;
+                case R.id.button3:
+                    Intent i = new Intent(MainActivity.this ,otherpage.class);
+                    startActivity(i);
+                    break;
 
                 case R.id.button4:
                     Intent i1 = new Intent(MainActivity.this ,page001.class);

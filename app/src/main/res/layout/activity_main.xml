@@ -99,7 +99,7 @@
         android:layout_alignEnd="@+id/button"
         android:layout_alignTop="@+id/button"
         android:layout_marginTop="40dp"
-        android:text="other page" />
+        android:text="【合集】" />
 
 
     <Button
